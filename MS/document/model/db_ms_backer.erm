@@ -10,9 +10,9 @@
 		<right_margin>30</right_margin>
 	</page_setting>
 	<category_index>0</category_index>
-	<zoom>0.75</zoom>
-	<x>2280</x>
-	<y>254</y>
+	<zoom>0.8</zoom>
+	<x>4</x>
+	<y>1239</y>
 	<default_color>
 		<r>192</r>
 		<g>192</g>
@@ -135,7 +135,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2015-09-11 21:51:48</creation_date>
-			<updated_date>2015-10-13 19:47:47</updated_date>
+			<updated_date>2015-10-13 20:41:29</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -2926,12 +2926,17 @@
 			<connections>
 				<relation>
 					<id>5</id>
-					<source>10</source>
+					<source>3</source>
 					<target>4</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
 						<target_xp>-1</target_xp>
 						<target_yp>-1</target_yp>
+						<bendpoint>
+							<relative>false</relative>
+							<x>811</x>
+							<y>342</y>
+						</bendpoint>
 						<color>
 							<r>0</r>
 							<g>0</g>
@@ -2948,17 +2953,12 @@
 				</relation>
 				<relation>
 					<id>6</id>
-					<source>3</source>
+					<source>10</source>
 					<target>4</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
 						<target_xp>-1</target_xp>
 						<target_yp>-1</target_yp>
-						<bendpoint>
-							<relative>false</relative>
-							<x>811</x>
-							<y>342</y>
-						</bendpoint>
 						<color>
 							<r>0</r>
 							<g>0</g>
@@ -3017,7 +3017,7 @@
 				<normal_column>
 					<id>18</id>
 					<referenced_column>46</referenced_column>
-					<relation>5</relation>
+					<relation>6</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name>系统用户</logical_name>
@@ -3051,7 +3051,7 @@
 				<normal_column>
 					<id>19</id>
 					<referenced_column>13</referenced_column>
-					<relation>6</relation>
+					<relation>5</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name>组角色</logical_name>
@@ -4283,7 +4283,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>84</word_id>
+					<word_id>85</word_id>
 					<id>48</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -4349,7 +4349,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>17</word_id>
+					<word_id>18</word_id>
 					<id>50</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -5086,7 +5086,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>17</word_id>
+					<word_id>18</word_id>
 					<id>68</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -5286,7 +5286,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>17</word_id>
+					<word_id>18</word_id>
 					<id>73</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -5847,7 +5847,7 @@
 				</relation>
 			</connections>
 			<physical_name>customer_orders</physical_name>
-			<logical_name>order_id</logical_name>
+			<logical_name>订单表</logical_name>
 			<description></description>
 			<constraint></constraint>
 			<primary_key_name></primary_key_name>
@@ -6288,19 +6288,19 @@
 					<id>14</id>
 					<source>6</source>
 					<target>20</target>
-						<source_xp>-1</source_xp>
-						<source_yp>-1</source_yp>
+						<source_xp>85</source_xp>
+						<source_yp>0</source_yp>
 						<target_xp>0</target_xp>
-						<target_yp>83</target_yp>
+						<target_yp>35</target_yp>
 						<bendpoint>
 							<relative>false</relative>
-							<x>1456</x>
-							<y>742</y>
+							<x>1213</x>
+							<y>508</y>
 						</bendpoint>
 						<bendpoint>
 							<relative>false</relative>
-							<x>1454</x>
-							<y>632</y>
+							<x>1217</x>
+							<y>490</y>
 						</bendpoint>
 						<color>
 							<r>0</r>
@@ -6320,19 +6320,19 @@
 					<id>15</id>
 					<source>6</source>
 					<target>20</target>
-						<source_xp>85</source_xp>
-						<source_yp>0</source_yp>
+						<source_xp>-1</source_xp>
+						<source_yp>-1</source_yp>
 						<target_xp>0</target_xp>
-						<target_yp>35</target_yp>
+						<target_yp>83</target_yp>
 						<bendpoint>
 							<relative>false</relative>
-							<x>1213</x>
-							<y>508</y>
+							<x>1456</x>
+							<y>742</y>
 						</bendpoint>
 						<bendpoint>
 							<relative>false</relative>
-							<x>1217</x>
-							<y>490</y>
+							<x>1454</x>
+							<y>632</y>
 						</bendpoint>
 						<color>
 							<r>0</r>
@@ -6458,7 +6458,7 @@
 				<normal_column>
 					<id>98</id>
 					<referenced_column>20</referenced_column>
-					<relation>15</relation>
+					<relation>14</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name>订单状态：已入库、等待处理、订单取消、订单生效。</logical_name>
@@ -6556,7 +6556,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>5</word_id>
+					<word_id>4</word_id>
 					<id>101</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -6589,7 +6589,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>23</word_id>
+					<word_id>22</word_id>
 					<id>102</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -6657,7 +6657,7 @@
 				<normal_column>
 					<id>104</id>
 					<referenced_column>20</referenced_column>
-					<relation>14</relation>
+					<relation>15</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name>数据字典：付款状态</logical_name>
@@ -8884,7 +8884,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>85</word_id>
+					<word_id>84</word_id>
 					<id>157</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -8950,7 +8950,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>17</word_id>
+					<word_id>18</word_id>
 					<id>159</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -9571,7 +9571,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>4</word_id>
+					<word_id>5</word_id>
 					<id>175</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -9604,7 +9604,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>22</word_id>
+					<word_id>23</word_id>
 					<id>176</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -11372,16 +11372,16 @@
 			<connections>
 				<relation>
 					<id>25</id>
-					<source>33</source>
+					<source>32</source>
 					<target>41</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
-						<target_xp>100</target_xp>
-						<target_yp>58</target_yp>
+						<target_xp>0</target_xp>
+						<target_yp>43</target_yp>
 						<bendpoint>
 							<relative>false</relative>
-							<x>1402</x>
-							<y>2498</y>
+							<x>990</x>
+							<y>2452</y>
 						</bendpoint>
 						<color>
 							<r>0</r>
@@ -11399,16 +11399,16 @@
 				</relation>
 				<relation>
 					<id>26</id>
-					<source>32</source>
+					<source>33</source>
 					<target>41</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
-						<target_xp>0</target_xp>
-						<target_yp>43</target_yp>
+						<target_xp>100</target_xp>
+						<target_yp>58</target_yp>
 						<bendpoint>
 							<relative>false</relative>
-							<x>990</x>
-							<y>2452</y>
+							<x>1402</x>
+							<y>2498</y>
 						</bendpoint>
 						<color>
 							<r>0</r>
@@ -11468,7 +11468,7 @@
 				<normal_column>
 					<id>221</id>
 					<referenced_column>170</referenced_column>
-					<relation>25</relation>
+					<relation>26</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name>供应商品</logical_name>
@@ -11502,7 +11502,7 @@
 				<normal_column>
 					<id>222</id>
 					<referenced_column>161</referenced_column>
-					<relation>26</relation>
+					<relation>25</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name>供应商</logical_name>
@@ -11600,7 +11600,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>5</word_id>
+					<word_id>4</word_id>
 					<id>225</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -13494,12 +13494,12 @@
 		</table>
 		<note>
 			<id>49</id>
-			<height>-1</height>
-			<width>-1</width>
+			<height>64</height>
+			<width>390</width>
 				<font_name>微软雅黑</font_name>
 				<font_size>9</font_size>
-			<x>3453</x>
-			<y>-51</y>
+			<x>3672</x>
+			<y>-76</y>
 			<color>
 				<r>192</r>
 				<g>192</g>
@@ -13631,7 +13631,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>18</word_id>
+					<word_id>17</word_id>
 					<id>275</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
